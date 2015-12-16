@@ -1,7 +1,7 @@
 {
   "dataPath": "http://mesh.ffnord.net/data/",
   "siteName": "Freifunk Nord",
-  "mapSigmaScale": 0.54,
+  "mapSigmaScale": 1,
   "showContact": false,
   "maxAge": 2,
   "blinkingHours": 2,
