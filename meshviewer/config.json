@@ -3,8 +3,8 @@
   "siteName": "Freifunk Nord",
   "mapSigmaScale": 0.54,
   "showContact": false,
-  "maxAge": 30,
-  "blinkingHours": 0,
+  "maxAge": 2,
+  "blinkingHours": 2,
   "mapLayers": [
     { "name": "MapQuest (OSM)",
       "url": "https://otile{s}-s.mqcdn.com/tiles/1.0.0/osm/{z}/{x}/{y}.jpg",
