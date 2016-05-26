@@ -1,11 +1,21 @@
 {
-  "dataPath": "http://mesh.ffnord.net/data/",
+  "dataPath": "data/",
   "siteName": "Freifunk Nord",
   "mapSigmaScale": 1,
   "showContact": false,
   "maxAge": 2,
   "blinkingHours": 2,
   "mapLayers": [
+    {
+      "name": "OpenStreetMap",
+      "url": "https:///tiles{s}.aachen.freifunk.net/{z}/{x}/{y}.png",
+      "config": {
+        "maxZoom": 19,
+        "subdomains": "1234",
+        "type": "osm",
+        "attribution": "&copy; <a href=\"https://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap-Mitwirkende</a>"
+      }
+    },
     { "name": "MapQuest (OSM)",
       "url": "https://otile{s}-s.mqcdn.com/tiles/1.0.0/osm/{z}/{x}/{y}.jpg",
       "config": {
@@ -68,7 +78,7 @@
   "globalInfos": [
     { "name": "Clientstatistik (gesamt)",
       "href": "https://statistik.hamburg.freifunk.net/dashboard/db/freifunk-ubersicht?var-region=ffnord",
-      "thumbnail": "https://statistik.hamburg.freifunk.net/render/dashboard-solo/db/freifunk-ubersicht?panelId=5&fullscreen&var-region=ffnord&theme=light&width=530&height=332&from=now-3d",
+      "thumbnail": "https://statistik.hamburg.freifunk.net/render/dashboard-solo/db/freifunk-ubersicht?panelId=1&fullscreen&var-region=ffnord&theme=light&width=530&height=332&from=now-3d",
       "caption": "Verbundene Clients in den letzten 3 Tagen"
     }
   ],
