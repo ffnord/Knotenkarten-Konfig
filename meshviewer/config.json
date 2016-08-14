@@ -7,6 +7,16 @@
   "blinkingHours": 0,
   "mapLayers": [
     {
+      "name": "OpenStreetMap (Freifunk Aachen)",
+      "url": "https:///tiles{s}.aachen.freifunk.net/{z}/{x}/{y}.png",
+      "config": {
+        "maxZoom": 19,
+        "subdomains": "1234",
+        "type": "osm",
+        "attribution": "&copy; <a href=\"https://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap-Mitwirkende</a>"
+      }
+    },
+    {
       "name": "HERE",
       "url": "https://{s}.base.maps.api.here.com/maptile/2.1/maptile/newest/normal.day/{z}/{x}/{y}/256/png8?app_id={app_id}&app_code={app_code}&lg=deu",
       "config": {
@@ -27,16 +37,6 @@
         "maxZoom": 19,
         "app_id": "$$$$$$$",
         "app_code": "$$$$$$$"
-      }
-    },
-    {
-      "name": "OpenStreetMap (Freifunk Aachen)",
-      "url": "https:///tiles{s}.aachen.freifunk.net/{z}/{x}/{y}.png",
-      "config": {
-        "maxZoom": 19,
-        "subdomains": "1234",
-        "type": "osm",
-        "attribution": "&copy; <a href=\"https://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap-Mitwirkende</a>"
       }
     },
     { "name": "ÖPNV Map (nur http)",
@@ -105,7 +105,7 @@
   "nodeInfos": [
     { "name": "Clientstatistik",
       "href": "https://statistik.hamburg.freifunk.net/dashboard/db/freifunk-knoteninfo-knoten-id?var-region=ffnord&var-knoten={NODE_ID}",
-      "thumbnail": "https://statistik.hamburg.freifunk.net/render/dashboard-solo/db/freifunk-knoteninfo-knoten-id?panelId=1&fullscreen&var-region=ffnord&var-knoten={NODE_ID}&theme=light&width=530&height=332&from=now-3d",
+      "thumbnail": "https://statistik.hamburg.freifunk.net/render/dashboard-solo/db/freifunk-knoteninfo-knoten-id?panelId=1&var-region=ffnord&var-knoten={NODE_ID}&theme=light&width=530&height=332&from=now-3d",
       "caption": "Verbundene Clients in den letzten 3 Tage an Knoten {NODE_ID}"
     }
   ],
