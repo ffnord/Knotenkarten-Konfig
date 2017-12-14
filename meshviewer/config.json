@@ -1,11 +1,10 @@
 {
   "dataPath": [
-	"data/v2/",
-	"ploh/"
+	"data/v2/"
 ],
   "siteName": "Freifunk Nord",
   "mapSigmaScale": 1,
-  "showContact": false,  
+  "showContact": false,
   "maxAge": 1,
   "mapLayers": [
     { "name": "Openstreetmap.de",
@@ -75,8 +74,6 @@
   ],
   "siteNames": [
     { "site": "ffnord", "name": "Nord - Hauptdomäne" },
-    { "site": "ffnord-ploh", "name": "Nord - Plön Ostholstein" },
-    { "site": "ffnord-ahb", "name": "Nord - Amt Hüttener Berge" },
     { "site": "ffnh", "name": "Nordheide" }
   ],
   "fixedCenter": {
