@@ -2,9 +2,9 @@ module.exports = function () {
   return {
     // Array of data provider are supported
     'dataPath': [
-      'https://mesh.freifunknord.de/data/',
-      'https://mesh.freifunknord.de/iz/',
-      'https://mesh.freifunknord.de/ploh/'
+      '//mesh.freifunknord.de/data/',
+      '//mesh.freifunknord.de/iz/',
+      '//mesh.freifunknord.de/ploh/'
     ],
     'siteName': 'Freifunk Nord',
     'mapLayers': [
@@ -72,11 +72,11 @@ module.exports = function () {
     'linkList': [
       {
         'title': 'Impressum',
-        'href': 'https://nord.freifunk.net/impressum.html/'
+        'href': '//nord.freifunk.net/impressum.html'
       },
       {
         'title': 'Datenschutz',
-        'href': 'https://nord.freifunk.net/datenschutzerklaerung.html/'
+        'href': '//nord.freifunk.net/datenschutzerklaerung.html'
       }
     ]
   };
